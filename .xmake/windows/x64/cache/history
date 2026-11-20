@@ -7,7 +7,6 @@
         "xmake r bkinstall",
         "xmake r bkinstall",
         "xmake r bkinstall",
-        "xmake r bkinstall",
         "xmake ",
         "xmake ",
         "xmake ",
@@ -64,6 +63,7 @@
         "xmake r bkinstall",
         "xmake r bkinstall",
         "xmake r bkinstall",
-        "xmake r bkinstall"
+        "xmake r bkinstall",
+        "xmake "
     }
 }
