@@ -1,13 +1,5 @@
 {
     cmdlines = {
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake r bkinstall",
-        "xmake ",
         "xmake ",
         "xmake ",
         "xmake ",
@@ -64,6 +56,14 @@
         "xmake r bkinstall",
         "xmake r bkinstall",
         "xmake r bkinstall",
-        "xmake "
+        "xmake ",
+        "xmake ",
+        [[xmake lua C:\msys64\mingw64\share\xmake\actions\build\cleaner.lua]],
+        "xmake config -m debug",
+        "xmake ",
+        "xmake r bkinstall",
+        "xmake r bkinstall",
+        "xmake config -m debug",
+        "xmake project -k compile_commands"
     }
 }

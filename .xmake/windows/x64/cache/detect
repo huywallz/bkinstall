@@ -1,1 +1,9 @@
-{ }
+{
+    ["detect.sdks.find_mingw"] = {
+        mingw = {
+            sdkdir = "C:/msys64/mingw64",
+            cross = "x86_64-w64-mingw32-",
+            bindir = [[C:\msys64\mingw64\bin]]
+        }
+    }
+}

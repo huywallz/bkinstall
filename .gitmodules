@@ -1,3 +1,9 @@
 [submodule "external/fltk"]
 	path = external/fltk
 	url = https://github.com/fltk/fltk
+[submodule "external/cpr"]
+	path = external/cpr
+	url = https://github.com/libcpr/cpr
+[submodule "external/curl"]
+	path = external/curl
+	url = https://github.com/curl/curl

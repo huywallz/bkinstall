@@ -1,1 +1,41 @@
-{ }
+{
+    envs_arch_x86_64_plat_mingw = {
+        plat = "mingw",
+        __checked = true,
+        __global = true,
+        arch = "x86_64"
+    },
+    nasm_arch_x86_64_plat_mingw = {
+        plat = "mingw",
+        __checked = true,
+        __global = true,
+        arch = "x86_64"
+    },
+    mingw_arch_x86_64_plat_mingw = {
+        __checked = true,
+        cross = "x86_64-w64-mingw32-",
+        mingw = "C:/msys64/mingw64",
+        plat = "mingw",
+        __global = true,
+        bindir = [[C:\msys64\mingw64\bin]],
+        arch = "x86_64"
+    },
+    go_arch_x86_64_plat_mingw = {
+        plat = "mingw",
+        __checked = true,
+        __global = true,
+        arch = "x86_64"
+    },
+    yasm_arch_x86_64_plat_mingw = {
+        plat = "mingw",
+        __checked = true,
+        __global = true,
+        arch = "x86_64"
+    },
+    fasm_arch_x86_64_plat_mingw = {
+        plat = "mingw",
+        __checked = true,
+        __global = true,
+        arch = "x86_64"
+    }
+}

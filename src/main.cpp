@@ -18,6 +18,8 @@
 #include <FL/Fl_Text_Display.H>
 #include <FL/Fl_Check_Button.H>
 
+#include <cpr/cpr.h>
+
 struct {
     Fl_Window* win;
     int mode = 0;

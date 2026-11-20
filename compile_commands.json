@@ -1,0 +1,11 @@
+[
+{
+  "directory": "C:\\msys64\\home\\huywall\\bkinstall",
+  "arguments": ["C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe", "-c", "-m64", "-g", "-O0", "-std=c++17", "-Iinclude", "-Iexternal\\fltk", "-Iexternal\\fltk\\build", "-DCURL_STATICLIB", "-I", "external\\cpr\\include", "-I", "external\\cpr\\build\\cpr_generated_includes", "-I", "external\\curl\\include", "-o", "build\\.objs\\bkinstall\\mingw\\x86_64\\debug\\src\\bkres.cpp.obj", "src\\bkres.cpp"],
+  "file": "src\\bkres.cpp"
+},
+{
+  "directory": "C:\\msys64\\home\\huywall\\bkinstall",
+  "arguments": ["C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe", "-c", "-m64", "-g", "-O0", "-std=c++17", "-Iinclude", "-Iexternal\\fltk", "-Iexternal\\fltk\\build", "-DCURL_STATICLIB", "-I", "external\\cpr\\include", "-I", "external\\cpr\\build\\cpr_generated_includes", "-I", "external\\curl\\include", "-o", "build\\.objs\\bkinstall\\mingw\\x86_64\\debug\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+}]
