@@ -1,0 +1,35 @@
+{
+    files = {
+        [[build\.objs\bkinstall\mingw\x86_64\release\src\bkres.cpp.obj]],
+        [[build\.objs\bkinstall\mingw\x86_64\release\src\main.cpp.obj]]
+    },
+    values = {
+        [[C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++]],
+        {
+            "-m64",
+            [[-Lexternal\fltk\build\lib]],
+            "-s",
+            "-lfltk_images",
+            "-lfltk_png",
+            "-lfltk_z",
+            "-lfltk_jpeg",
+            "-lfltk_gl",
+            "-lfltk",
+            "-lwinspool",
+            "-lgdiplus",
+            "-lgdi32",
+            "-luser32",
+            "-lcomctl32",
+            "-lcomdlg32",
+            "-lole32",
+            "-luuid",
+            "-lws2_32",
+            "-luxtheme",
+            "-limm32",
+            "-lwinmm",
+            "-lmsimg32",
+            "-static-libgcc",
+            "-static-libstdc++"
+        }
+    }
+}

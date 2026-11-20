@@ -1,0 +1,3 @@
+fltk
+- License: FLTK
+- https://github.com/fltk/fltk/blob/master/COPYING
